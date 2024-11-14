@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-@app.route('/data', methods=['POST'])
+@app.route('api-resp-3stprgezq-felipes-projects-be10a58d.vercel.app/data', methods=['POST'])
 def receive_data():
     data = request.json
     
